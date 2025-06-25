@@ -1,6 +1,7 @@
 body{
     background-color: #f3efea;
-    padding-bottom: 400px;
+   overflow-x: hidden;
+    
 }
 .top-bar{
     display: flex;
@@ -288,6 +289,7 @@ body{
   flex-wrap: wrap;
   background: #f5f2ee; /* svetla pozadina, možeš menjati */
   width: 100%;
+  margin-bottom: 300px;
 }
 
 .brand-logos img {
@@ -302,3 +304,97 @@ body{
   transform: scale(1.05); /* lagani hover efekat */
 }
 
+
+
+
+
+
+
+
+
+.site-footer {
+
+  background-color: #1a2927;
+  padding: 2rem 1rem;
+  color: #f5f2ee;
+  font-family: Arial, sans-serif;
+  text-align: center; 
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.footer-about, .footer-links, .footer-location, .footer-contact {
+  flex: 1 1 200px;
+  min-width: 200px;
+}
+
+.footer-logo {
+  width: 50px;
+  margin-bottom: 0.5rem;
+}
+
+.footer-about h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  font-weight: normal;
+}
+
+.footer-about p {
+  font-size: 0.9rem;
+  color: #ccc;
+  line-height: 1.4;
+}
+
+.footer-links h4, .footer-location h4, .footer-contact h4 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: normal;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 0.3rem;
+}
+
+.footer-links ul li a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+  color: #fff;
+}
+
+.footer-location p,
+.footer-contact p {
+  font-size: 0.9rem;
+  color: #ccc;
+  margin: 0.3rem 0;
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.site-footer {
+  width: 100%;
+  background-color: #1a2927;
+  padding: 2rem 1rem;
+}
