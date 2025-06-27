@@ -104,7 +104,9 @@ body{
 .footer-links ul li a:hover {
   color: #fff;
 }
-
+.reverse{
+  flex-direction: row-reverse;
+}
 .footer-location p,
 .footer-contact p {
   font-size: 0.9rem;
@@ -178,4 +180,42 @@ html, body {
   width: 100%;
   border-radius: 8px;
   box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 800px) {
+.reverse{
+  flex-direction: row;
+}
+.top-bar{
+    width: 100%;
+    left: 0;
+    height: 10vh;
+}
+/**/
+  .levi-top-bar{
+    display: none;
+  }
+  /*.desni-top-bar{
+    display: none;
+  }*/
+  .fa-instagram , .fa-facebook-f {
+    display: none;
+  }
+  .fa-phone{
+    font-size: 6vw;
+    
+  }
+  .teh, .onm, .kon{
+    display: none;
+  }
+  .levi-top-bar a {
+    font-size: 4vw !important;
+  }
+  .site-footer{
+    text-align: center;
+  }
+  .footer-about p { 
+    max-width: 90vw;
+  }
+
 }
