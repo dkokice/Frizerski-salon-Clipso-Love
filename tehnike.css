@@ -198,8 +198,8 @@ html, body {
   /*.desni-top-bar{
     display: none;
   }*/
-  .fa-instagram , .fa-facebook-f {
-    display: none;
+  .fa-instagram , .fa-facebook-f{
+    display: none !important;
   }
   .fa-phone{
     font-size: 6vw;
