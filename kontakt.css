@@ -217,3 +217,42 @@ html, body {
   background-color: #1a2927;
   padding: 2rem 1rem;
 }
+
+
+@media (max-width: 800px) {
+.top-bar{
+    width: 100%;
+    left: 0;
+    height: 10vh;
+}
+/**/
+  .levi-top-bar{
+    display: none;
+  }
+  .desni-top-bar{
+    display: none;
+  }
+  .fa-instagram , .fa-facebook-f {
+    display: none;
+  }
+  .fa-phone{
+    font-size: 6vw;
+    
+  }
+  .teh, .onm, .kon{
+    display: none;
+  }
+  .levi-top-bar a {
+    font-size: 4vw !important;
+  }
+  .site-footer{
+    text-align: center;
+  }
+  .footer-about p { 
+    max-width: 90vw;
+  }
+  .body{
+    overflow-x: hidden;
+  }
+  
+}
